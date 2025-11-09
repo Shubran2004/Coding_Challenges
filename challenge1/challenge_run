@@ -1,0 +1,15 @@
+#!/bin/bash
+
+read tool
+read operation
+read filename
+
+case "$tool" in
+  "ccwc")
+    echo $operation 
+    echo $filename 
+    ;;
+  *)
+    echo "Unknown Operation"
+    ;;
+esac
